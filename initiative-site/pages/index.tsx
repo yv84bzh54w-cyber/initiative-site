@@ -18,9 +18,9 @@ export default function Home() {
       <section id="contact">
         <h2>Get in Touch</h2>
         <div className="contact-info">
-          <p>Have questions? We'd love to hear from you!</p>
+          <p>For questions, organisational support, media enquiries or information not available on the website, contact us.</p>
           <p>
-            Email us at: <a href="mailto:contact@example.com" className="email-link">contact@example.com</a>
+            Email us at: <a href="mailto:contact@ruleoflawappeal.org" className="email-link">contact@ruleoflawappeal.org</a>
           </p>
         </div>
         <ContactForm />
