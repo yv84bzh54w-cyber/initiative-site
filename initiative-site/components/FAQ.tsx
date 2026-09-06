@@ -50,7 +50,7 @@ const appealFaqs: FAQItem[] = [
   },
 ];
 
-const positionFaqs: FAQItem[] = [
+const campaignFaqs: FAQItem[] = [
   {
     question: 'How does the campaign ensure that its advocacy is peaceful and non-discriminatory?',
     answer: 'The campaign is committed to peaceful and lawful civic participation, and to equal human dignity for all people. It rejects antisemitism, anti-Palestinian racism, Islamophobia, racism, threats, harassment, hate speech and collective blame. The Appeal concerns the conduct of the State of Israel and the responsibilities of the United Nations; it is not directed against any people, religion, nationality or ethnic group.'
@@ -66,6 +66,53 @@ const positionFaqs: FAQItem[] = [
   {
     question: 'How will the campaign handle donations, personal data and use of logos?',
     answer: 'RuleofLawAppeal will handle donations, personal data, names and logos transparently and only for agreed campaign purposes. Personal data will be processed in accordance with applicable data-protection rules, and the name or logo of an individual or organisation will not be made public without express consent. Information about funding arrangements, privacy practices and permissions for use of logos will be made available on the website.'
+  },
+];
+
+const principlesFaqs: FAQItem[] = [
+  {
+    question: 'The Appeal states that Israel behaves as a predatory and terror state. Are you anti-Israel?',
+    answer: 'No. We distinguish between the right of the State of Israel to exist and the conduct of the Israeli state. The terms predatory and terror are both explained in the Appeal. We criticize Israel\'s conduct, including its acquisition and continued control of territory through the 1967 war and its subsequent settlement and annexation policies. Acquiring territory through force and refusing to relinquish it is predatory behaviour. The Palestinian population in these territories experiences state-sanctioned terror.'
+  },
+  {
+    question: 'Many Palestinians and their sympathizers shout, “From the River to the Sea, Palestine Will Be Free.” Is that a threat to the State of Israel?',
+    answer: 'We do not support that slogan. A slogan should, however, be judged in the context in which it is used and should not automatically be equated with a concrete threat to the existence of a state. We believe the slogan should instead be: “From the River to the Sea, Only Peace Will Set Both Peoples Free.”'
+  },
+  {
+    question: 'How do you respond to threats Israel has faced from surrounding countries, Hezbollah and Iran?',
+    answer: 'The best protection is Oz VeShalom: strength and peace. Strength is not demonstrated through ethnic cleansing or genocidal practices, such as obstructing water and food supplies, but through achieving peace treaties, as Israel did with Egypt and Jordan and, later, through the Abraham Accords. Israel should also seek peace with the Palestinians. Oz VeShalom is also part of the name of a sympathetic Jewish organization, Oz VeShalom–Netivot Shalom, which combines adherence to traditional Jewish ethics with a commitment to peace, without being naïve about threats to Israel\'s security.'
+  },
+  {
+    question: 'What about the rejection of the 1947 UN Partition Plan, Palestinian fedayeen and Hamas?',
+    answer: 'In 1947, Palestinians believed that Jews had taken land on which their ancestors had lived for many centuries. Under the plan, Jews constituted approximately 33% of the inhabitants of Mandatory Palestine, yet approximately 56% of the territory was allocated to a Jewish state. It took years for the majority of Palestinians to acknowledge the State of Israel. Acknowledgement should always go in both directions. Since the collapse of the Oslo peace process, successive Israeli governments have not acknowledged, through their policies and actions, the Palestinians’ right to statehood.'
+  },
+  {
+    question: 'Why do you speak of occupied territories rather than Judea and Samaria?',
+    answer: 'The International Court of Justice concluded in its advisory opinion of 19 July 2024 that Israel’s continued presence in the Occupied Palestinian Territory is unlawful. This supports the use of the internationally recognized term occupied territories. Historical and religious associations with a territory cannot, by themselves, override contemporary international law.'
+  },
+  {
+    question: 'Is the International Court of Justice biased against Israel?',
+    answer: 'Governments subject to adverse findings by international courts often make the same claim. That is a common response to unwelcome judicial findings. Those whose conduct has been found unlawful may seek arguments to undermine the authority of the court and its findings. ICJ judges are elected by the United Nations General Assembly and Security Council. They examine extensive written and oral submissions before reaching a judgment or issuing an advisory opinion.'
+  },
+  {
+    question: 'Are nominations of judges to the ICJ political nominations?',
+    answer: 'Political considerations may play a role, as they do in many international appointments. Candidates are nominated by national groups associated with the Permanent Court of Arbitration, although governments can influence this process. The nominations must also be based on merit: under the Statute of the ICJ, judges must be persons of high moral character who possess the qualifications required for appointment to the highest judicial offices in their respective countries, or be jurists of recognized competence in international law. The judges are subsequently elected, independently of one another, by the United Nations General Assembly and Security Council.'
+  },
+  {
+    question: 'Did God not promise the land to the Jews?',
+    answer: 'The belief that God promised this land to the Jewish people is rooted in interpretations of ancient biblical texts. These interpretations have changed through the centuries and are not shared by all religious groups, or even by all Jews or all Christians. We should not return to the days in which religious convictions and territorial claims were advanced through armed force.'
+  },
+  {
+    question: 'Many countries violate the Rule of Law. Why focus on Israel?',
+    answer: 'It is true that many countries violate the Rule of Law, but there are gradations in the nature, duration and severity of such violations. Israel’s prolonged occupation, settlement policies, annexation measures and treatment of the Palestinian population constitute exceptionally grave and sustained violations of international law. Pointing to violations by other states cannot justify Israel’s conduct. If such an argument were allowed to prevail, we would descend into a world governed only by sheer force.'
+  },
+  {
+    question: 'I have no trust in the United Nations. It talks, but we see no improvements on the ground.',
+    answer: 'The United Nations can act only within the authority granted to it by its member states. Its capacity to act is also constrained by the structure established after the Second World War, particularly the privileged position and veto powers of the five permanent members of the Security Council. The United Nations therefore needs to reinvent itself and become capable of reducing or suspending the rights of member states when they become gross and persistent violators of the Rule of Law. Our Appeal calls for the international community to confront both Israel’s violations and the institutional limitations that have prevented the United Nations from responding effectively.'
+  },
+  {
+    question: 'Are Muslims opposed to the State of Israel?',
+    answer: 'We reject such generalizations. Muslims do not form a single political or religious bloc, and criticism of the conduct of the Israeli state should not automatically be interpreted as opposition to Israel’s existence. Several Muslim-majority countries have recognized Israel, concluded peace treaties or established diplomatic relations with it. Political violence and injustice can generate further radicalization and violent responses. This may help to explain such responses, but it does not justify violence against civilians. Muslim religious leaders have also made great efforts to refute extremist thought and reach out to non-Muslims, including through the Amman Message, A Common Word Between Us and You, the Marrakesh Declaration and the Document on Human Fraternity for World Peace and Living Together.'
   },
 ];
 
@@ -95,10 +142,12 @@ export default function FAQ() {
   return (
     <section id="faq">
       <h2>Frequently Asked Questions</h2>
-      <h3>FAQs about the Appeal</h3>
+      <h3>The Appeal</h3>
       <FAQGroup items={appealFaqs} startIndex={0} />
+      <h3>The Campaign</h3>
+      <FAQGroup items={campaignFaqs} startIndex={appealFaqs.length} />
       <h3>Principles and positions</h3>
-      <FAQGroup items={positionFaqs} startIndex={appealFaqs.length} />
+      <FAQGroup items={principlesFaqs} startIndex={appealFaqs.length + campaignFaqs.length} />
     </section>
   );
 }
