@@ -1,7 +1,8 @@
 export default function Document() {
   return (
     <section id="document">
-      <h2>Appeal to the United Nations by Ordinary People</h2>
+      <p className="eyebrow">The full document</p>
+      <h2>Appeal to the United Nations<br /><span>by ordinary people</span></h2>
       <div className="document-container">
         <div className="document-placeholder">
           The full text of the Appeal will be published here.
