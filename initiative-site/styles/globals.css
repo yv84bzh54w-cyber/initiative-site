@@ -49,8 +49,22 @@ nav a:not(.brand):hover { color: var(--olive); }
 .demands-list li::before { color: var(--olive-dark); content: counter(demand, decimal-leading-zero); font-size: 1.2rem; font-weight: 900; }
 #document { background: var(--navy); color: var(--paper); }
 .document-container { max-width: 880px; padding: 32px; border: 1px solid rgba(167, 191, 76, 0.45); background: var(--navy-deep); }
-.document-placeholder { padding: 72px 24px; border: 1px dashed rgba(167, 191, 76, 0.6); color: var(--muted); text-align: center; font-size: 1.05rem; }
-.document-container p:last-child { margin: 20px 0 0; color: var(--muted) !important; }
+.document-featured { padding: 18px 0 28px; border-bottom: 1px solid rgba(167, 191, 76, 0.35); }
+.document-meta { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 18px; flex-wrap: wrap; }
+.document-tag { display: inline-flex; padding: 7px 12px; background: rgba(167, 191, 76, 0.18); color: var(--olive); font-size: 0.7rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; }
+.document-date { color: var(--muted); font-size: 0.78rem; }
+.document-featured h3 { margin: 0 0 14px; font-size: clamp(1.3rem, 2vw, 2rem); }
+.document-featured p { max-width: 620px; color: #dfe7ed; }
+.document-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 18px; }
+.document-button { display: inline-flex; align-items: center; justify-content: center; min-width: 160px; padding: 12px 18px; border: 1px solid rgba(167, 191, 76, 0.7); font-size: 0.75rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+.document-button.primary { background: var(--olive); color: var(--navy-deep); }
+.document-button.secondary { color: var(--paper); background: transparent; }
+.document-language-list { padding-top: 20px; }
+.language-heading { margin: 0 0 16px; color: var(--olive); font-size: 0.8rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; }
+.language-item { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(167, 191, 76, 0.2); color: var(--paper); }
+.language-item.disabled { color: #a8b5bf; }
+.language-download { color: var(--olive); font-size: 0.78rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+.language-soon { color: #d5d9dc; font-size: 0.75rem; letter-spacing: 0.04em; }
 #faq { background: var(--paper); }
 #faq > h2 { color: var(--navy); }
 #faq > h3 { max-width: 880px; padding-top: 28px; border-top: 1px solid #d5d9cf; }
