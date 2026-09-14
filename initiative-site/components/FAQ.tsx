@@ -13,8 +13,8 @@ const appealFaqs: FAQItem[] = [
     answer: 'The Appeal to the United Nations is a declaration by ordinary people concerning the conduct of the State of Israel towards the State of Palestine, other states in the Middle East and the Rule of Law. It calls upon the United Nations to take collective and corrective action in response to the absence of the Rule of Law in the illegally occupied territories and the grave consequences for the people of Palestine. The Appeal asks the United Nations to uphold international law, protect human rights and take effective measures to rein in the State of Israel.'
   },
   {
-    question: 'Who is behind the appeal and the campaign?',
-    answer: 'The Appeal was initiated and drafted by Dr Reynier Overhoff, a former senior legal adviser at the Dutch Council of State, on the basis of information provided by several experts on the region. It was subsequently signed by an assembly of ten people with expert knowledge of the region and its politics, representing a variety of groups and backgrounds. The members of the assembly will remain anonymous unless they choose to make their identities public. The Appeal may be represented only by its three chairs, with Dr Reynier Overhoff serving as Chair; the initiative currently operates under the name RuleofLawAppeal.'
+    question: 'Who are the members of the assembly?',
+    answer: 'The idea behind the Assembly convened to adopt the Appeal to the United Nations was inspired by the United States Declaration of Independence. The preamble to this 1776 Declaration states that the Representatives were assembled in an Assembly. In the case of the Appeal to the UN, it was considered appropriate for it likewise to be adopted by an Assembly of Ordinary People. The idea was that this Assembly should consist of at least ten people. This was duly achieved: the Assembly consists of five men and six women. For reasons of privacy, their names have not been disclosed. Every member of the Assembly is, of course, free to make his or her direct involvement in the Appeal public on their own initiative.'
   },
   {
     question: 'Why has the appeal been made now?',
