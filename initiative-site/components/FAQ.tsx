@@ -17,11 +17,11 @@ const appealFaqs: FAQItem[] = [
     answer: 'The idea behind the Assembly convened to adopt the Appeal to the United Nations was inspired by the United States Declaration of Independence. The preamble to this 1776 Declaration states that the Representatives were assembled in an Assembly. In the case of the Appeal to the UN, it was considered appropriate for it likewise to be adopted by an Assembly of Ordinary People. The idea was that this Assembly should consist of at least ten people. This was duly achieved: the Assembly consists of five men and six women. For reasons of privacy, their names have not been disclosed. Every member of the Assembly is, of course, free to make his or her direct involvement in the Appeal public on their own initiative.'
   },
   {
-    question: 'Why has the appeal been made now?',
+    question: 'Why has the Appeal been made now?',
     answer: 'We, ordinary people, witness daily the horrific fate of the people of Palestine and the dramatic and inhumane consequences of the absence of the Rule of Law in the illegally occupied territories. The multitude of expressions of violence by the State of Israel, and conduct which we consider to constitute acts of genocide and war crimes, have made immediate collective and corrective action by the United Nations indispensable. We believe that the prolonged failure of the United Nations and the wider international community to respond effectively has undermined the credibility of the international framework itself.'
   },
   {
-    question: 'What does the appeal ask the United Nations to do?',
+    question: 'What does the Appeal ask the United Nations to do?',
     answer: 'The Appeal asks the United Nations to suspend the full membership of the State of Israel, compel Israel to withdraw from the occupied territories, act so that Israel respects the Rule of Law, reinvent the United Nations so its agencies and human rights protections are defended, and systematically involve women in meaningful decision-making processes and agencies.'
   },
   {
@@ -41,11 +41,11 @@ const appealFaqs: FAQItem[] = [
     answer: 'Individuals may sign in support of the Appeal, including with an organisational affiliation where relevant. Organisations interested in promoting the Appeal or discussing possible collaboration are invited to contact us at contact@ruleoflawappeal.org. Support is open to all who share the Appeal\'s commitment to the Rule of Law, fundamental values and peaceful coexistence.'
   },
   {
-    question: 'What can an organisation or individual do to support the appeal?',
+    question: 'What can an organisation or individual do to support the Appeal?',
     answer: 'Organisations and individuals can read and share the Appeal, help bring it to the attention of others, and express support for its demand that the United Nations take collective and corrective action. Civic organisations may contact RuleofLawAppeal to discuss endorsement, joining the European coalition, sharing the Appeal with their members, contributing expertise, or taking part in future peaceful public engagement.'
   },
   {
-    question: 'Where can journalists, organisations and members of the public find the full appeal?',
+    question: 'Where can journalists, organisations and members of the public find the full Appeal?',
     answer: 'The full Appeal can be found on the RuleofLawAppeal website. Information not available on the website may be requested by email at contact@ruleoflawappeal.org. Depending on the nature of the request and the information available to us, we may not be able to provide all requested material.'
   },
 ];
@@ -56,11 +56,11 @@ const campaignFaqs: FAQItem[] = [
     answer: 'The campaign is committed to peaceful and lawful civic participation, and to equal human dignity for all people. It rejects antisemitism, anti-Palestinian racism, Islamophobia, racism, threats, harassment, hate speech and collective blame. The Appeal concerns the conduct of the State of Israel and the responsibilities of the United Nations; it is not directed against any people, religion, nationality or ethnic group.'
   },
   {
-    question: 'Does supporting the campaign require agreement with every word of the appeal?',
+    question: 'Does supporting the campaign require agreement with every word of the Appeal?',
     answer: 'Support for the campaign does not necessarily mean endorsement of every formulation in the Appeal. It means support for its central demand that the United Nations take effective action to uphold the Rule of Law and respect international law.'
   },
   {
-    question: 'What happens after the appeal is submitted?',
+    question: 'What happens after the Appeal is submitted?',
     answer: 'Following submission of the Appeal, RuleofLawAppeal will seek to build support among civic organisations and ordinary people, share information about the Appeal, and engage peacefully with UN missions, political representatives and the wider public. The campaign will monitor responses and communicate significant developments to supporters and participating organisations.'
   },
   {
@@ -71,7 +71,7 @@ const campaignFaqs: FAQItem[] = [
 
 const principlesFaqs: FAQItem[] = [
   {
-    question: 'The appeal states that Israel behaves as a predatory and terror state. Are you anti-Israel?',
+    question: 'The Appeal states that Israel behaves as a predatory and terror state. Are you anti-Israel?',
     answer: 'No. We distinguish between the right of the State of Israel to exist and the conduct of the Israeli state. The terms “predatory” and “terror” are both explained in the Appeal. We criticise Israel’s conduct, including its acquisition and continued control of territory through the 1967 war and its subsequent settlement and annexation policies. Acquiring territory through force and refusing to relinquish it is predatory behaviour. The Palestinian population in these territories experiences state-sanctioned terror.'
   },
   {
