@@ -9,7 +9,7 @@ export default function Header() {
         <a href="#about">About</a>
         <a href="#document">Document</a>
         <a href="#faq">FAQ</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact">Get Involved</a>
         <div className="nav-socials" aria-label="Social media links">
           <a href="https://instagram.com/ruleoflawappeal" target="_blank" rel="noreferrer" className="nav-social">Instagram</a>
           <a href="https://bsky.app/profile/ruleoflawappeal.bsky.social" target="_blank" rel="noreferrer" className="nav-social">Bluesky</a>
