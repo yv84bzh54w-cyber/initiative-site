@@ -2,7 +2,8 @@ export default function About() {
   return (
     <section id="about">
       <p className="eyebrow">The Appeal</p>
-      <h2>Why now?</h2>
+      <h2>Appeal of ordinary people to the UN for the Rule of Law</h2>
+      <p className="eyebrow" style={{ marginTop: '8px', marginBottom: '18px' }}>An abstract — The Hague, 15 September 2026</p>
       <div className="section-content">
         <p>In this Appeal we, ordinary people, put forward a social demand for justice concerning the disruptive conduct of the State of Israel in the Middle East. Expressed in many languages, it is supported by people from around the world.</p>
         <p>Through this Appeal to the Secretary General, we call for respect of fundamental values and the Rule of Law, as many common citizens have often expressed and continue to plead worldwide. We, ordinary people, do not profess expertise. Nonetheless, we use precise language to explain what deeply troubles us.</p>
