@@ -28,29 +28,13 @@ export default function ContactForm() {
     setIsLoading(true);
     setStatus({ type: null, message: '' });
 
-    try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
+    const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`;
+    const mailto = `mailto:contact@ruleoflawappeal.org?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(body)}`;
 
-      const data = await response.json();
-
-      if (response.ok) {
-        setStatus({ type: 'success', message: 'Message sent successfully! We will get back to you soon.' });
-        setFormData({ name: '', email: '', subject: '', message: '' });
-      } else {
-        setStatus({ type: 'error', message: data.error || 'Failed to send message. Please try again.' });
-      }
-    } catch (error) {
-      setStatus({ type: 'error', message: 'An error occurred. Please try again later.' });
-      console.error('Error:', error);
-    } finally {
-      setIsLoading(false);
-    }
+    window.location.href = mailto;
+    setStatus({ type: 'success', message: 'Your email app is opening with your message ready to send.' });
+    setFormData({ name: '', email: '', subject: '', message: '' });
+    setIsLoading(false);
   };
 
   return (
