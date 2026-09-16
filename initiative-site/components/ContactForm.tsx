@@ -91,7 +91,7 @@ export default function ContactForm() {
       </div>
 
       <button type="submit" disabled={isLoading}>
-        {isLoading ? 'Sending...' : 'Send Message'}
+        {isLoading ? 'Opening Email...' : 'Open Email'}
       </button>
 
       {status.type && (
