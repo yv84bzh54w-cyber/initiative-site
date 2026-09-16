@@ -14,7 +14,7 @@ const appealFaqs: FAQItem[] = [
   },
   {
     question: 'Who are the members of the assembly?',
-    answer: 'The idea behind the Assembly convened to adopt the Appeal to the United Nations was inspired by the United States Declaration of Independence. The preamble to this 1776 Declaration states that the Representatives were assembled in an Assembly. In the case of the Appeal to the UN, it was considered appropriate for it likewise to be adopted by an Assembly of Ordinary People. The idea was that this Assembly should consist of at least ten people. This was duly achieved: the Assembly consists of five men and six women. For reasons of privacy, their names have not been disclosed. Every member of the Assembly is, of course, free to make his or her direct involvement in the Appeal public on their own initiative.'
+    answer: 'The idea behind the Assembly convened to adopt the Appeal to the United Nations was inspired by the United States Declaration of Independence. The preamble to this 1776 Declaration states that the Representatives were assembled in an Assembly. In the case of the Appeal to the UN, it was considered appropriate for it likewise to be adopted by an Assembly of Ordinary People. The idea was that this Assembly should consist of at least ten people. This was duly achieved: the Assembly consists of five men and five women. For reasons of privacy, their names have not been disclosed. Every member of the Assembly is, of course, free to make his or her direct involvement in the Appeal public on their own initiative.'
   },
   {
     question: 'Why has the Appeal been made now?',
