@@ -77,12 +77,23 @@ nav a:not(.brand):hover { color: var(--olive); }
 .contact-info { padding: 28px; background: var(--navy); color: var(--paper); }
 .contact-info p { font-size: 1.05rem; }
 .email-link { color: var(--olive); font-weight: 800; }
+#sign-the-appeal { background: #edf0e7; }
+.petition-heading-row { display: flex; align-items: end; justify-content: space-between; gap: 20px; max-width: 880px; margin-bottom: 20px; }
+.petition-counter { display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 200px; padding: 20px 18px; background: var(--navy); color: var(--paper); border: 2px solid var(--olive); }
+.petition-counter span { font-size: clamp(2rem, 4vw, 3rem); font-weight: 900; line-height: 1; color: var(--olive); }
+.petition-counter small { margin-top: 8px; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.72rem; font-weight: 700; }
+.petition-layout { max-width: 880px; }
 .contact-form { display: flex; flex-direction: column; gap: 20px; max-width: 880px; margin: 34px 0 0; }
+.petition-form { margin-top: 0; }
 .form-group { display: flex; flex-direction: column; }
 label { margin-bottom: 8px; color: var(--navy); font-size: 0.8rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
 input, textarea { padding: 14px; border: 1px solid #c7cec9; border-radius: 0; background: #fff; color: var(--ink); }
 input:focus, textarea:focus { outline: 2px solid var(--olive); border-color: var(--olive); }
 textarea { min-height: 140px; resize: vertical; }
+.radio-group label { margin-bottom: 12px; }
+.radio-row { display: flex; gap: 24px; flex-wrap: wrap; }
+.radio-option { display: inline-flex; align-items: center; gap: 10px; margin: 0; color: var(--navy); font-size: 0.9rem; letter-spacing: 0; text-transform: none; }
+.radio-option input { width: 18px; height: 18px; margin: 0; }
 button { width: fit-content; padding: 14px 24px; border: 0; border-radius: 0; background: var(--olive); color: var(--navy-deep); font-size: 0.8rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
 button:disabled { background: #c6cdc2; cursor: not-allowed; }
 .form-message { padding: 14px; border-left: 4px solid var(--olive); }

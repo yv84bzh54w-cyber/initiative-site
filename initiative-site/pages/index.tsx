@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import Document from '../components/Document';
 import FAQ from '../components/FAQ';
+import SignPetition from '../components/SignPetition';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Document />
       <FAQ />
+      <SignPetition />
       
       <section id="contact">
         <h2>Get Involved</h2>
