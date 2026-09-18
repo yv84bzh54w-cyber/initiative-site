@@ -30,6 +30,12 @@ const languageDocuments = [
     primary: false,
   },
   {
+    language: 'Portuguese',
+    file: '/documents/Portuguese%20-%202026%2008%2031%20Appeal%20to%20UN%20by%20ordinary%20people.pdf',
+    available: true,
+    primary: false,
+  },
+  {
     language: 'Dutch',
     file: null,
     available: false,
