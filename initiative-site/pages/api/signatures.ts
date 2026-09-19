@@ -7,7 +7,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   if (req.method === 'POST') {
-    const { agrees, name, country, email, comments } = req.body || {};
+    const { agrees, name, country, email, comments, subscribe } = req.body || {};
 
     if (!name || !country || !email) {
       return res.status(400).json({ error: 'Name, country and email are required.' });
@@ -27,7 +27,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       name: trimmedName,
       country: trimmedCountry,
       email: trimmedEmail,
-      comments: trimmedComments
+      comments: trimmedComments,
+      subscribe: Boolean(subscribe),
     });
 
     return res.status(200).json({ success: true, count });

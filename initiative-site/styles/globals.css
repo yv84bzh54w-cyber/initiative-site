@@ -94,6 +94,9 @@ textarea { min-height: 140px; resize: vertical; }
 .radio-row { display: flex; gap: 24px; flex-wrap: wrap; }
 .radio-option { display: inline-flex; align-items: center; gap: 10px; margin: 0; color: var(--navy); font-size: 0.9rem; letter-spacing: 0; text-transform: none; }
 .radio-option input { width: 18px; height: 18px; margin: 0; }
+.checkbox-group { margin-top: 4px; }
+.checkbox-option { display: inline-flex; align-items: center; gap: 12px; margin: 0; color: var(--navy); font-size: 0.9rem; letter-spacing: 0; text-transform: none; }
+.checkbox-option input { width: 18px; height: 18px; margin: 0; }
 button { width: fit-content; padding: 14px 24px; border: 0; border-radius: 0; background: var(--olive); color: var(--navy-deep); font-size: 0.8rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
 button:disabled { background: #c6cdc2; cursor: not-allowed; }
 .form-message { padding: 14px; border-left: 4px solid var(--olive); }

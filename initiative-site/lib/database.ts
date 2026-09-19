@@ -9,6 +9,7 @@ type SignaturePayload = {
   country: string;
   email: string;
   comments: string;
+  subscribe: boolean;
 };
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -45,6 +46,7 @@ db.prepare(`
     country TEXT NOT NULL,
     email TEXT NOT NULL,
     comments TEXT DEFAULT '',
+    subscribe INTEGER NOT NULL DEFAULT 0,
     created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
   )
 `).run();
@@ -73,7 +75,8 @@ export async function addSignature(payload: SignaturePayload): Promise<number> {
       name: payload.name,
       country: payload.country,
       email: payload.email,
-      comments: payload.comments
+      comments: payload.comments,
+      subscribe: payload.subscribe
     });
 
     if (!error) {
@@ -83,8 +86,8 @@ export async function addSignature(payload: SignaturePayload): Promise<number> {
   }
 
   const statement = db.prepare(`
-    INSERT INTO signatures (agrees, name, country, email, comments)
-    VALUES (@agrees, @name, @country, @email, @comments)
+    INSERT INTO signatures (agrees, name, country, email, comments, subscribe)
+    VALUES (@agrees, @name, @country, @email, @comments, @subscribe)
   `);
 
   const result = statement.run({
@@ -92,7 +95,8 @@ export async function addSignature(payload: SignaturePayload): Promise<number> {
     name: payload.name,
     country: payload.country,
     email: payload.email,
-    comments: payload.comments
+    comments: payload.comments,
+    subscribe: payload.subscribe ? 1 : 0
   }) as { lastInsertRowid: number };
 
   return Number(result.lastInsertRowid ?? 0);
